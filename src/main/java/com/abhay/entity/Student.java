@@ -1,4 +1,4 @@
-package com.abhay;
+package com.abhay.entity;
 
 public class Student {
     private int id;
@@ -41,7 +41,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "com.abhay.Student{" +
+        return "com.abhay.entity.Student{" +
                 "id=" + id +
                 ", usn='" + usn + '\'' +
                 ", address='" + address + '\'' +

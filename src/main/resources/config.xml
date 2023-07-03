@@ -5,7 +5,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="com.abhay.Student" name="student1">
+    <bean class="com.abhay.entity.Student" name="student1">
         <property name="id">
             <value>2</value>
         </property>
@@ -13,5 +13,5 @@
         <property name="address" value="Bihar"/>
     </bean>
 
-    <bean class="com.abhay.Student" name="student2" p:id="9" p:usn="1NC19CS009" p:address="UP"/>
+    <bean class="com.abhay.entity.Student" name="student2" p:id="9" p:usn="1NC19CS009" p:address="UP"/>
 </beans>
